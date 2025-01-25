@@ -1,5 +1,7 @@
 # ReverseMaybe
 This is hopefully where I want to put basics things we should know when doing basic malware analysis.
+With hope, I would be adding to this repo once per week. Together with an example sample that will be used in the explanation.
+
 Some basic I would like to hopefully cover is
 
 1. Powershell
