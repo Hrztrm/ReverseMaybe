@@ -11,7 +11,7 @@ Some basic I would like to hopefully cover is
 5. C#
 6. APK
 7. Godot
-8. 
+8. LNKs
 
 Languages that I would need to learn first before diving deep for malware reverse stuff
 1. C 
@@ -20,3 +20,4 @@ Languages that I would need to learn first before diving deep for malware revers
 4. Nim
 5. Rust
 6. DLLs (In C, and C# formats)
+7. .SCR files
