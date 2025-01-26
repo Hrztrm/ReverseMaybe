@@ -54,8 +54,14 @@ if (Get-ItemProperty -Path $RegistryKey -Name $RegistryName -ErrorAction Silentl
 
 ## File Download
 ```
+# Method 1
 ${web_httpclient} = New-Object System.Net.WebClient
 ${web_httpclient}.DownloadFile(${str_url}, ${FileName})
+
+# Method 2
+iwr https://example.com/file.zip -OutFile "file.zip"
+Invoke-WebRequest https://example.com/file.zip -OutFile "file.zip"
+
 ```
 
 ## Usage of COM object
