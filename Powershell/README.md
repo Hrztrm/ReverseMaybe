@@ -17,6 +17,14 @@ Using PowerShell
 
 # Interesting Functions to look out for
 
+## Powershell Code Execution
+Always look out for `IEX` in every format. Used to execute additional Powershell code. 
+Often found to be obfuscated in various of ways
+
+```
+
+```
+
 ## Loading DLL into Memory
 ```
 [Reflection.Assembly]::Load($hgh2).GetType('R2').GetMethod('Run').Invoke($null,$YOO)
@@ -73,7 +81,7 @@ $destinationFolder = $ShellApp.NameSpace($destinationPath)
 $destinationFolder.CopyHere($sourceFolder.Items(), 4 + 16)
 ```
 
-## Obfuscation
+## Common Obfuscation
 ### Replace
 ```
 # Creates an alias GG that will execute 'IEX'
@@ -101,3 +109,7 @@ $a = [Convert]::FromBase64String(<Base64 String or Variable>)
 $SSD=[system.Convert].GetMethod("FromBase64String")
 $hgh=$SSD.Invoke($null,$obj)
 ```
+
+A whole bunch of other stuff you can read here:
+1. [Powershell Obfuscation Bible](https://github.com/t3l3machus/PowerShell-Obfuscation-Bible)
+2. [Invoke Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation)
