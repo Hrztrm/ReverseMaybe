@@ -2,6 +2,7 @@ All of the files are taken from MalwareBazaar.
 Password: infected
 
 SHA256 
+
 [12dabb14b611f17dc34980ea50dc3cdf52671e9022937cfb0de0c41958e06713]("https://bazaar.abuse.ch/sample/12dabb14b611f17dc34980ea50dc3cdf52671e9022937cfb0de0c41958e06713")
 [3458082ad2e29cefc189cde5ce067458e5227c3ac12f7fa1b1e1c1f3578f32b8]("https://bazaar.abuse.ch/sample/3458082ad2e29cefc189cde5ce067458e5227c3ac12f7fa1b1e1c1f3578f32b8")
 [5dfde4bff42949705c4bbce0b37dfc88b0fd5d447fd8f5aed00850b6264d1160]("https://bazaar.abuse.ch/sample/5dfde4bff42949705c4bbce0b37dfc88b0fd5d447fd8f5aed00850b6264d1160")
