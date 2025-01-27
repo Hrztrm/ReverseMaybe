@@ -18,10 +18,14 @@ Using PowerShell
 # Interesting Functions to look out for
 
 ## Powershell Code Execution
-Always look out for `IEX` in every format. Used to execute additional Powershell code. 
+Always look out for `IEX` in every format. Used to execute additional Powershell code. Typically found at the start or end of a script.
 Often found to be obfuscated in various of ways
 
 ```
+I`EX <powershell code>
+.( $sHELlid[1]+$shElliD[13]+'X')
+. ( $PShOME[21]+$PsHOmE[30]+'X') 
+
 
 ```
 
